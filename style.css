@@ -1,0 +1,8 @@
+body {
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px light grey;
+  border-radius: 8px;
+  padding: 5px;
+  margin: 20px;
+}
