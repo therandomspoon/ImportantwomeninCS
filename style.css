@@ -1,8 +1,16 @@
-p {
-  background-color: lightgrey;
-  width: 300px;
-  border: 15px solid grey;
-  border-radius: 8px;
-  padding: 5px;
-  margin: 20px;
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.viewport-header {
+  position: relative;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
