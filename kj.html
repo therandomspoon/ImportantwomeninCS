@@ -1,9 +1,26 @@
-<Doctype! html>
+<DOCTYPE html>
 <style>
-body {
-  background-image: url('Footage Background Night Sky-aAd0cFAbM1A.mp4');
-}
+  body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+      
+  #video-background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -100;
+  }
 </style>
+ <title> main page </title>
 <body>
-  <h1> Katherine Johnson </h1>
+  <video id="video-background" autoplay loop muted>
+    <source src="Footage Background Night Sky-aAd0cFAbM1A.mp4" type="video/mp4">
+  </video>
+  <h1 style=color:white;> Katherine Johnson </h1>
+  <a href="main.html" style="background-color:Tomato;"> Go back to the main page </a>
+  <p style=color:white;> Katherine Johnson was a pioneering African American mathematician and physicist who made significant contributions to the field of space exploration. Born in 1918 in West Virginia, Johnson was a gifted student who excelled in math and science. She began working for NASA in 1953, where she calculated trajectories for the first American human spaceflight and later played a key role in the success of the Apollo moon landing. Her work was critical in ensuring the safe return of the Apollo 13 crew, and she also helped to develop the space shuttle program. Despite facing racial and gender discrimination throughout her career, Johnson's contributions were instrumental in advancing the field of space exploration and she has been credited with helping to open doors for future generations of women and people of color in STEM fields. In 2015, Johnson was awarded the Presidential Medal of Freedom, the highest civilian honor in the United States. Her legacy continues to inspire and motivate people around the world to pursue their dreams and make a positive impact on society. </p>
 </body>
